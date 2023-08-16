@@ -22,10 +22,7 @@ function changeCustomColor() {
 
 // function to change bg color from random no.
 function changeRandomColor() {
-    const randomInputValue = Math.floor(Math.random() * 100) + 1;
-    const colorIndex = Math.floor(randomInputValue / 20);
-    document.body.style.backgroundColor = colors[colorIndex];
-    myStudentIdElement.textContent = "Student ID: 200503845";
+   
 }
 
 // function to generate options for select list
