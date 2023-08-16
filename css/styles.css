@@ -1,0 +1,57 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#images {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#myStudentId {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#imageSelect{
+    border: #f0f0f0;
+    background-color: rgb(255, 139, 104);
+}
+button{
+    border: #f0f0f0;
+    background-color: rgb(255, 139, 104);
+    border-radius: 100%;
+    height: 7em;
+    width: 7em;
+}
+button:hover{
+    transform: scale(1.15);
+    transition: 1s;
+}
